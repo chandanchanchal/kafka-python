@@ -8,3 +8,4 @@ for _ in range(100):
     producer.send('names', name.encode('utf-8'))
     print(name)
 time.sleep(20)
+#producer.send('test',b'Hello from')
